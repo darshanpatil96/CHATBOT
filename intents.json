@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up", "How are you"],
+      "responses": ["Hello! How can I help you today?", "Hi there, what can I do for you?", "Hey! Glad to see you."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Catch you later", "Talk to you soon"],
+      "responses": ["Goodbye!", "See you later!", "Have a great day!", "Bye! Come back soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot", "I appreciate it"],
+      "responses": ["You're welcome!", "No problem!", "Anytime!", "Glad I could help!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "Can you help me?", "Help me please", "I have a problem"],
+      "responses": ["Sure! Tell me what you need help with.", "Of course, I'm here to help.", "Go ahead, let me know your issue."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "Tell me your name"],
+      "responses": ["I'm your chatbot assistant!", "I’m a friendly chatbot created to help you.", "You can call me your virtual assistant."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What's your age?", "When were you created?"],
+      "responses": ["I don't age like humans, but I was created recently.", "I'm timeless!", "I'm as old as the project I'm in."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather?", "Tell me today's weather", "Is it raining?", "How's the weather outside?"],
+      "responses": ["I can't fetch live weather yet, but you can check a weather app!", "Sorry, I don't know the weather right now."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Tell me the time", "Can you give me the time?"],
+      "responses": ["I don’t have a watch, but your system clock does!", "Check your device clock for the exact time."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Do you know a joke?"],
+      "responses": ["Why don’t scientists trust atoms? Because they make up everything!", "I tried to catch some fog yesterday. Mist!", "Why did the computer go to the doctor? It caught a virus!"]
+    },
+    {
+      "tag": "smalltalk",
+      "patterns": ["How's it going?", "What's new?", "Are you fine?", "How are you doing?"],
+      "responses": ["I’m doing great, thanks for asking!", "I’m just a bot, but I’m feeling helpful today!", "All good here, ready to chat with you."]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [""],
+      "responses": ["I'm not sure I understand. Can you rephrase?", "Hmm, I didn't get that. Try saying it differently.", "Sorry, I don’t know about that yet."]
+    }
+  ]
+}
