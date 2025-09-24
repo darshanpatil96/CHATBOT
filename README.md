@@ -123,6 +123,7 @@ pip package manager
 
 2. Clone the Repository:
 
+ https://github.com/darshanpatil96/CHATBOT.git
 Bash
 
 git clone <your-repository-url>
