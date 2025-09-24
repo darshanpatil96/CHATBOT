@@ -49,63 +49,6 @@ Here is an overview of the key files and directories in the project:
 └── README.md            # This README file
 
 
-Of course! Based on the file structure in the image, here is a comprehensive README.md file for your project. This README explains what the project is, what the files do, and how to run it.
-
-AI Chatbot with Flask
-This is a web-based AI Chatbot application built using Python, Flask, and a deep learning model created with Keras/TensorFlow. The chatbot is designed to understand user queries and provide relevant responses based on a predefined set of intents.
-
-📋 Table of Contents
-Project Overview
-
-Features
-
-Technology Stack
-
-File Structure
-
-Setup and Installation
-
-How It Works
-
-Usage
-
-📝 Project Overview
-This project implements a simple, intent-based chatbot with a web interface. The core of the chatbot is a neural network model that classifies user input into different categories (intents). The Flask web application serves an HTML interface for users to interact with the chatbot in real-time.
-
-✨ Features
-Web-based Interface: Simple and clean UI for easy interaction.
-
-Natural Language Understanding: Uses a deep learning model to understand user intent.
-
-Easily Extendable: New intents and responses can be added by simply modifying the intents.json file.
-
-Ready for Deployment: Includes a Procfile for easy deployment to platforms like Heroku.
-
-💻 Technology Stack
-Backend: Python, Flask
-
-Machine Learning: TensorFlow, Keras
-
-NLP Toolkit: NLTK (likely used for text preprocessing)
-
-Frontend: HTML, CSS, JavaScript (served from the static and templates folders)
-
-📂 File Structure
-Here is an overview of the key files and directories in the project:
-
-├── static/              # Contains static assets (CSS, JavaScript, images)
-├── templates/           # Contains HTML templates for the web interface
-├── __pycache__/         # Python cache directory
-├── app.py               # The main Flask application file that runs the web server
-├── chatbot.py           # Contains the core chatbot logic for processing input and getting predictions
-├── chatbot_model.h5     # The pre-trained Keras sequential model for intent classification
-├── classes.pkl          # A pickled file containing the list of intent classes
-├── words.pkl            # A pickled file containing the vocabulary of the model
-├── intents.json         # The dataset file with predefined intents, patterns, and responses
-├── new.py               # (Assumed) The script used to train the neural network model
-├── requirements.txt     # A list of all Python dependencies for the project
-├── Procfile             # Configuration file for deployment platforms like Heroku
-└── README.md            # This README file
 
 📷 Screenshot
 <img width="536" height="616" alt="Screenshot 2025-09-12 173908" src="https://github.com/user-attachments/assets/4814de02-7dce-4f46-a2f4-f02fba19ffd3" />
