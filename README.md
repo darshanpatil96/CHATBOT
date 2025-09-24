@@ -23,17 +23,29 @@ Frontend: HTML, CSS, JavaScript (served from the static and templates folders)
 Here is an overview of the key files and directories in the project:
 
 ├── static/              # Contains static assets (CSS, JavaScript, images)
+
 ├── templates/           # Contains HTML templates for the web interface
+
 ├── __pycache__/         # Python cache directory
+
 ├── app.py               # The main Flask application file that runs the web server
+
 ├── chatbot.py           # Contains the core chatbot logic for processing input and getting predictions
+
 ├── chatbot_model.h5     # The pre-trained Keras sequential model for intent classification
+
 ├── classes.pkl          # A pickled file containing the list of intent classes
+
 ├── words.pkl            # A pickled file containing the vocabulary of the model
+
 ├── intents.json         # The dataset file with predefined intents, patterns, and responses
+
 ├── new.py               # (Assumed) The script used to train the neural network model
+
 ├── requirements.txt     # A list of all Python dependencies for the project
+
 ├── Procfile             # Configuration file for deployment platforms like Heroku
+
 └── README.md            # This README file
 
 
